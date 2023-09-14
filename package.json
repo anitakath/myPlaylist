@@ -1,6 +1,5 @@
 {
   "homepage": "http://anitakath.github.io/myMusic-w-Spotify-API",
-  "name": "musicapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
