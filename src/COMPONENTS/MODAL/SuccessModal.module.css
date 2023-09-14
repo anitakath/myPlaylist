@@ -1,0 +1,64 @@
+
+
+.backgroundContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 100vh;
+    z-index: 20;
+    background-color: rgba(59,51,85, 0.8);
+}
+
+
+.modalContainer{
+    position: fixed;
+    top: 15vh;
+    left: 5vw;
+    height: 400px;
+    width: 90%;
+    z-index: 100;
+    background-color: rgb(93,93,129);
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.messageField{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 1.7rem;
+}
+
+.messageField p{
+    line-height: 40px;
+}
+
+.modalBtn{
+    border: none;
+    background-color: rgb(191,205,224);
+    width: 100px;
+    height: 30px;
+    border-bottom: 2px solid rgb(59,51,85);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bolder;
+    transition: 0.4s ease;
+    position: relative;
+    bottom: 70px;
+}
+
+.modalBtn:hover{
+    background: white;
+    border: 1px solid white;
+    box-shadow: 2px 3px 0px black;
+}

@@ -1,0 +1,49 @@
+
+.headerContainer{
+    border-top: 1px solid grey;
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: rgba(254,252,253, 0.5);
+    box-shadow: 0px 1px 5px black;
+}
+
+
+.title{
+    width: 90vw;
+    position: relative;
+    color: rgb(59,51,85);
+    text-align: center;
+    margin: 20px 0px;
+    padding-bottom: 10px;
+}
+
+h2{
+    color: #5D5D81;
+    margin: 0px 30px;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+
+
+.backgroundContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 100vh;
+    z-index: 20;
+    background-color: rgba(59,51,85, 0.8);
+
+}
+
+.modalContainer{
+    position: fixed;
+    top: 15vh;
+    left: 5vw;
+    height: 500px;
+    width: 90%;
+    z-index: 100;
+    background-color: rgb(93,93,129);
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modalContainer h2{
+    color: rgb(218, 41, 28);
+    letter-spacing: 4px;
+}
+
+.errorMessageField{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.errorMessageField p{
+    color:rgb(191,205,224);
+    font-size: 1.5rem;
+}
+
+
+.modalBtn{
+    border: none;
+    background-color: rgb(191,205,224);
+    width: 100px;
+    height: 30px;
+    border-bottom: 2px solid rgb(59,51,85);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bolder;
+    transition: 0.4s ease;
+}
+
+.modalBtn:hover{
+    transform: scale(1.1)
+}
+

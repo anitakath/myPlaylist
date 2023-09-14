@@ -1,0 +1,144 @@
+
+
+.playlistContainer{
+    min-height: 2230px;
+    overflow: scroll;
+    width: 40%;
+    background: rgba(59,51,85, 0.65);
+    border-radius: 5px;
+    box-shadow: 1px 2px 0px black;
+    color: white;
+    margin: 0px 20px;
+}
+
+.titleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    border-bottom: 2px solid white;
+}
+
+
+
+
+.title{
+    color: #000505;
+    letter-spacing: 1px;
+    border: none;
+    background: transparent;
+    width: 100%;
+    height: 40px;
+    padding: 10px 0px 20px 20px;
+    margin-top: 10px;
+    font-size: 2rem;
+    transition: 0.4s ease;
+    text-align: center;
+}
+
+.title::placeholder{
+    color: rgb(191,205,224);
+}
+
+.title:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(191,205,224);
+    color: white;
+}
+
+.resultsContainer{
+    width: 100%;
+    min-height: 5px;
+    transition: 0.5s ease;
+}
+
+
+.resultItem{
+    border-bottom: 2px solid rgb(191,205,224);
+    width: 90%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0px;
+    margin: 5px 0px;
+    transition: 0.5s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+.resultItem:hover{
+    background: rgba(218, 41,28, 0.55);
+    letter-spacing: 1px;
+    color: black;
+    text-decoration: line-through;
+}
+
+.track{
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+
+.artist{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+
+.playlistBtn{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: 0.5s ease;
+    border-radius: 8px;
+    border-top: 2px solid rgb(254,252,253);
+    border-left: 2px solid rgb(254,252,253);
+    border-right: 2px solid rgb(93,93,129);
+    border-bottom: 2px solid rgb(93,93,129);
+    background: rgba(254,252,253, 0.8);
+    box-shadow: 0px 0px 2px grey;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.playlistBtn:hover{
+    background: rgba(191,205,224, 1);
+    box-shadow: 0px 0px 2px white;
+    background: white;
+    letter-spacing: 1px;
+}
+
+.playlistBtn:active{
+    transform: scale(0.96);
+}
+
+.playlistSavedContainer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+
+.addTracksInfo{
+    color: rgb(218, 71, 28);
+    letter-spacing: 1px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1200px){
+    .playlistContainer{
+       min-height: 400px;
+       width: 85%;
+       margin: 20px 0px;
+    }
+}

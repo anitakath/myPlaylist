@@ -1,0 +1,109 @@
+
+
+.searchResultsContainer{
+    min-height: 2230px;
+    overflow: scroll;
+    width: 40%;
+    background: rgba(59,51,85, 0.65);
+    border-radius: 5px;
+    box-shadow: 1px 2px 0px black;
+    color: white;
+    margin: 0px 20px;
+}
+
+
+.titleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    border-bottom: 2px solid white;
+   
+}
+
+.title{
+    width: 100%;
+    color: rgb(191,205,224);
+    letter-spacing: 1px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    width: 100%;
+    height: 40px;
+    padding: 10px 0px 20px 20px;
+    margin-top: 10px;
+    font-size: 2rem;
+    transition: 0.4s ease;
+    text-align: center;
+    position: relative;
+    top: 11px;
+}
+
+
+
+
+
+
+
+.resultItem{
+    border-bottom: 2px solid rgb(191,205,224);
+    width: 90%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0px;
+    margin: 5px 0px;
+    transition: 0.5s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+.resultItem p{
+    position: absolute;
+    font-size: 1.2rem;
+  
+}
+
+.track{
+    top: 0;
+    left: 10px;
+    
+    
+}
+
+.artist{
+    bottom: 0;
+    left: 30px;
+   
+}
+
+.resultItem:hover{
+    background: rgb(191,205,224);
+    color: black;
+    letter-spacing: 1px;
+}
+
+.resultItemBtn{
+    background: transparent;
+    position: absolute;
+    right: 15px;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1200px){
+
+    .searchResultsContainer{
+       min-height: 400px;
+       width: 85%;
+       margin: 40px 0px;
+    }
+}
